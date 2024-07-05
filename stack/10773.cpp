@@ -12,12 +12,10 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> num;
         s.push(num);
-        if (!s.empty()){
             if(num == 0) {
                 s.pop();
                 s.pop();
             }
-        }
     }
     while (!s.empty()) {
         sum += s.top();
