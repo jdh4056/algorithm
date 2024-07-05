@@ -1,6 +1,8 @@
 #include <iostream>
+#include <algorithm>
+#include <vector>
+    using namespace std;
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+    int main(){
+        cout << "hello worldsㅋㅋ";
+    }
