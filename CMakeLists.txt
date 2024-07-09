@@ -4,8 +4,9 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
-        marathon/16673.cpp
-        queue/1158.cpp
+
+        class2/2869.cpp
+        class2/10989.cpp
 
 
 )

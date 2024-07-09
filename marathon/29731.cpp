@@ -8,16 +8,15 @@ int main() {
     cin >> N;
     cin.ignore();
 
-    int count = 0;
+    int i;
     while(N--) {
         getline(cin, str);
-        for (int i = 0; i < 7; i++) {
+        for (i = 0; i < 7; i++) {
             if (str == strArr[i]) {
                 break;
             }
-            count++;
         }
-        if (count == 7) {
+        if (i == 7) {
             cout << "Yes";
             return 0;
         }
