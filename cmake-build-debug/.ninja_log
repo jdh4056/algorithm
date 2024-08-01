@@ -9,7 +9,7 @@
 1	1538	1721646667648911786	CMakeFiles/algorithm.dir/sorting/2470.cpp.o	6b5903efe78ad5d7
 12	954	1720611384119494499	CMakeFiles/algorithm.dir/tree/10815.cpp.o	cb953c8a60b6c7ea
 5	858	1721913889550605638	CMakeFiles/algorithm.dir/marathon/27434.cpp.o	c4814716b8205ba4
-2	78	1722347827581608883	build.ninja	404e28d84c3e7e74
+2	78	1722433309689544216	build.ninja	404e28d84c3e7e74
 6	933	1721643067506862856	CMakeFiles/algorithm.dir/marathon/10718.cpp.o	3bc639a6d6b5807b
 4	815	1720611654273544928	CMakeFiles/algorithm.dir/marathon/5522.cpp.o	e8f6644e037d72a
 5	995	1721218099526657542	CMakeFiles/algorithm.dir/sorting/2750.cpp.o	e7b8fd1f90b09201
@@ -77,3 +77,7 @@
 7	965	1721137485233461634	CMakeFiles/algorithm.dir/queue/deque/2346.cpp.o	b7da262750884ea5
 5	815	1721914447493921275	CMakeFiles/algorithm.dir/marathon/30030.cpp.o	7d05ad14abe03ec2
 5	991	1722237055137657563	CMakeFiles/algorithm.dir/greedy/1439.cpp.o	a5f36637d9aec3c6
+1	598	1722433318504619175	CMakeFiles/algorithm.dir/bruteForce/4673.cpp.o	facb2d495a5cd447
+600	2908	1722433319104275043	algorithm	67862899f65abf7d
+4	887	1722433371756047053	CMakeFiles/algorithm.dir/bruteForce/4673.cpp.o	facb2d495a5cd447
+887	1027	1722433372639128606	algorithm	67862899f65abf7d

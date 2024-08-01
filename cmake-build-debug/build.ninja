@@ -49,17 +49,11 @@ cmake_ninja_workdir = /Users/jangdonghyeon/CLionProjects/algorithm/cmake-build-d
 
 build cmake_object_order_depends_target_algorithm: phony || CMakeFiles/algorithm.dir
 
-build CMakeFiles/algorithm.dir/greedy/2891.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/greedy/2891.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/greedy/2891.cpp.o.d
+build CMakeFiles/algorithm.dir/bruteForce/4673.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bruteForce/4673.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bruteForce/4673.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/greedy
-
-build CMakeFiles/algorithm.dir/marathon/8393.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/marathon/8393.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/marathon/8393.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/marathon
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bruteForce
 
 
 # =============================================================================
@@ -69,7 +63,7 @@ build CMakeFiles/algorithm.dir/marathon/8393.cpp.o: CXX_COMPILER__algorithm_unsc
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/greedy/2891.cpp.o CMakeFiles/algorithm.dir/marathon/8393.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bruteForce/4673.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :
