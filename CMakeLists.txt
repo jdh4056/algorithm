@@ -4,7 +4,7 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
-        bruteForce/4673.cpp
+        bruteForce/1065.cpp
 
 
 )
