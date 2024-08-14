@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
 
-        7weeks/14495.cpp
+        marathon/10757.cpp
 
 
 )
