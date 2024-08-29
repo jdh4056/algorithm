@@ -14,13 +14,13 @@ int main() {
     }
 
     int max = 0;
+    int blackJack = 0;
     for (int i = 0; i < N; ++i) {
         for (int j = i + 1; j < N; ++j) {
             for (int k = j + 1; k < N; ++k) {
-                int blackJack[N];
-                blackJack[i] = card[i] + card[j] + card[k];
-                if (blackJack[i] <= M) {
-                    max = blackJack[i];
+                blackJack = card[i] + card[j] + card[k];
+                if (blackJack <= M && max < blackJack) {
+                    max = blackJack;
                 }
             }
         }

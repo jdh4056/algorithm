@@ -1,32 +1,29 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int a, b, c;
+    int N;
+    int T_Shirts[6];
+    int T, P;
 
-    while (true) {
-        cin >> a >> b >> c;
-        if (a == 0 | b == 0 | c == 0) {
-            break;
-        }
-        int MAX = 0, w = 0, h = 0;
-        if (a > b && a > c) {
-            MAX = a;
-            w = b;
-            h = c;
-        } else if (b > a && b > c) {
-            MAX = b;
-            w = a;
-            h = c;
-        } else if (c > a && c > b) {
-            MAX = c;
-            w = a;
-            h = b;
-        }
-        if ((w*w) + (h*h) == (MAX*MAX)) {
-            cout << "right" << '\n';
-        } else {
-            cout << "wrong" << '\n';
-        }
+    cin >> N;
+    for (int i = 0; i < 6; ++i) {
+        int n;
+        cin >> n;
+        T_Shirts[i] = n;
     }
+
+    cin >> T >> P;
+
+    int countT = 0;
+
+    for (int i = 0; i < 6; ++i) {
+        countT += (T_Shirts[i] + T - 1) / T;
+    }
+
+    int countP = N / P;
+    int onePen = N % P;
+
+    cout << countT << endl;
+    cout << countP << " " << onePen;
 }
