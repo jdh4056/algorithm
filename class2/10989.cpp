@@ -2,12 +2,23 @@
 using namespace std;
 
 int main() {
-    int n;
-    cin >> n;
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
 
-    int arr[n];
+    int N;
+    cin >> N;
+    int index[10001] = {0};
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < N; ++i) {
+        int num;
+        cin >> num;
+        index[num]++;
+    }
 
+    for (int i = 1; i <= 10000; ++i) {
+        while(index[i]) {
+            cout << i << '\n';
+            index[i]--;
+        }
     }
 }
