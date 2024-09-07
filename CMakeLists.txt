@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
 
-
-        tree/11286.cpp
+        map/17219.cpp
 
 )
