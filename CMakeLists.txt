@@ -6,7 +6,6 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(algorithm
 
 
-
-        class2/2231.cpp
+        tree/11286.cpp
 
 )
