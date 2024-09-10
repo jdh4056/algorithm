@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
 
-        map/17219.cpp
+        Array_LinkedList/2577.cpp
+        Array_LinkedList/11328.cpp
+
 
 )
