@@ -12,21 +12,25 @@ int main() {
         cin >> S >> Y;
 
         if (S == 0) {
-            girl[Y-1]++;
+            girl[Y]++;
         } else {
-            boy[Y-1]++;
+            boy[Y]++;
         }
     }
 
     int room = 0;
-    for (int i = 0; i < 6; ++i) {
-        room += boy[i] / 2;
-        if (boy[i] % 2 != 0) {
-            room++;
+    for (int i = 1; i <= 6; ++i) {
+        if (boy[i] % K == 0) {
+            room += boy[i] / K;
+        } else {
+            room += boy[i] / K + 1;
         }
-        room += girl[i] / 2;
-        if (girl[i] % 2 != 0) {
-            room++;
+    }
+    for (int i = 1; i <= 6; ++i) {
+        if (girl[i] % K == 0) {
+            room += girl[i] / K;
+        } else {
+            room += girl[i] / K + 1;
         }
     }
 
