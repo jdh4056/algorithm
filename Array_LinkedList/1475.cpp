@@ -4,16 +4,14 @@ using namespace std;
 int main() {
     int N;
     cin >> N;
-    vector<int> roomNum(N);
 
-    for (int i = 0; i < roomNum.size(); ++i) {
-        int num;
-        cin >> num;
-        roomNum.push_back(num);
+    string str = to_string(N);
+    vector<int> index;
+    for (int i = 0; i < str.size(); ++i) {
+        index[str[i] - '0']++;
     }
+    int count = 0;
 
-    for (int i = 0; i < roomNum.size(); ++i) {
-        cout << roomNum.front();
-        roomNum.pop_back();
-    }
+
+
 }
