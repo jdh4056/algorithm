@@ -5,8 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
 
-        marathon/3003.cpp
-        marathon/14645.cpp
+        marathon/25314.cpp
 
 
 )
