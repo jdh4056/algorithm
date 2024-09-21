@@ -28,7 +28,7 @@ public:
             cout << -1 << '\n';
             return;
         }
-        cout << arr[tail--] << '\n';
+        cout << arr[--tail] << '\n';
     }
 
     int size() {
