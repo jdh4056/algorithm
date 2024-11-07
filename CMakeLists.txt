@@ -5,9 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
 
-
-        DFS&BFS_part2/2146.cpp
-        marathon/7891.cpp
+        BinarySearch/1822.cpp
 
 
 )
