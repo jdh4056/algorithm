@@ -4,7 +4,7 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
-        BinarySearch/16401.cpp
+        BinarySearch/2295.cpp
 
 
 )
