@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/jangdonghyeon/CLionProjects/algorithm/cmake-build-d
 
 build cmake_object_order_depends_target_algorithm: phony || CMakeFiles/algorithm.dir
 
-build CMakeFiles/algorithm.dir/BinarySearch/18869.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/BinarySearch/18869.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/BinarySearch/18869.cpp.o.d
+build CMakeFiles/algorithm.dir/BinarySearch/3151.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/BinarySearch/3151.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/BinarySearch/3151.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/BinarySearch
@@ -63,7 +63,7 @@ build CMakeFiles/algorithm.dir/BinarySearch/18869.cpp.o: CXX_COMPILER__algorithm
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/BinarySearch/18869.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/BinarySearch/3151.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :
