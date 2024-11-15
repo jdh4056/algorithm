@@ -15,15 +15,16 @@ int main() {
     }
 
     int st = 0, en = 0;
-    int count = 0;
+    long long count = 0;
 
     while (en < n) {
-        if (check[a[en]] == 1) {
-            a[st++];
+        if (check[a[en]]) {
             check[a[st]] = false;
+            st++;
         } else {
+            check[a[en]] = true;
             count += (en - st + 1);
-            a[en++];
+            en++;
         }
     }
     cout << count;
