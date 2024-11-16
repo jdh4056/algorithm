@@ -49,11 +49,23 @@ cmake_ninja_workdir = /Users/jangdonghyeon/CLionProjects/algorithm/cmake-build-d
 
 build cmake_object_order_depends_target_algorithm: phony || CMakeFiles/algorithm.dir
 
-build CMakeFiles/algorithm.dir/twoPointer/13144.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/twoPointer/13144.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/twoPointer/13144.cpp.o.d
+build CMakeFiles/algorithm.dir/twoPointer/1644.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/twoPointer/1644.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/twoPointer/1644.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/twoPointer
+
+build CMakeFiles/algorithm.dir/twoPointer/2531.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/twoPointer/2531.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/twoPointer/2531.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/twoPointer
+
+build CMakeFiles/algorithm.dir/marathon/32384.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/marathon/32384.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/marathon/32384.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/marathon
 
 
 # =============================================================================
@@ -63,7 +75,7 @@ build CMakeFiles/algorithm.dir/twoPointer/13144.cpp.o: CXX_COMPILER__algorithm_u
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/twoPointer/13144.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/twoPointer/1644.cpp.o CMakeFiles/algorithm.dir/twoPointer/2531.cpp.o CMakeFiles/algorithm.dir/marathon/32384.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :

@@ -4,10 +4,9 @@ project(algorithm)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
-
-
-
-        twoPointer/13144.cpp
+        twoPointer/1644.cpp
+        twoPointer/2531.cpp
+        marathon/32384.cpp
 
 
 )
