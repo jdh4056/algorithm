@@ -49,29 +49,11 @@ cmake_ninja_workdir = /Users/jangdonghyeon/CLionProjects/algorithm/cmake-build-d
 
 build cmake_object_order_depends_target_algorithm: phony || CMakeFiles/algorithm.dir
 
-build CMakeFiles/algorithm.dir/BaaarkingDog/simulation_0x0D/15683.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/BaaarkingDog/simulation_0x0D/15683.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/BaaarkingDog/simulation_0x0D/15683.cpp.o.d
+build CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12/11653.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/BaaarkingDog/math_0x12/11653.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12/11653.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/BaaarkingDog/simulation_0x0D
-
-build CMakeFiles/algorithm.dir/BaaarkingDog/simulation_0x0D/18808.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/BaaarkingDog/simulation_0x0D/18808.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/BaaarkingDog/simulation_0x0D/18808.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/BaaarkingDog/simulation_0x0D
-
-build CMakeFiles/algorithm.dir/BaaarkingDog/backtracking_0x0C/15663.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/BaaarkingDog/backtracking_0x0C/15663.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/BaaarkingDog/backtracking_0x0C/15663.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/BaaarkingDog/backtracking_0x0C
-
-build CMakeFiles/algorithm.dir/BaaarkingDog/DP_0x10/1463.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/BaaarkingDog/DP_0x10/1463.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/BaaarkingDog/DP_0x10/1463.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/BaaarkingDog/DP_0x10
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12
 
 
 # =============================================================================
@@ -81,7 +63,7 @@ build CMakeFiles/algorithm.dir/BaaarkingDog/DP_0x10/1463.cpp.o: CXX_COMPILER__al
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/BaaarkingDog/simulation_0x0D/15683.cpp.o CMakeFiles/algorithm.dir/BaaarkingDog/simulation_0x0D/18808.cpp.o CMakeFiles/algorithm.dir/BaaarkingDog/backtracking_0x0C/15663.cpp.o CMakeFiles/algorithm.dir/BaaarkingDog/DP_0x10/1463.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12/11653.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :
