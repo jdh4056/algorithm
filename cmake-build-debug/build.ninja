@@ -49,11 +49,23 @@ cmake_ninja_workdir = /Users/jangdonghyeon/CLionProjects/algorithm/cmake-build-d
 
 build cmake_object_order_depends_target_algorithm: phony || CMakeFiles/algorithm.dir
 
-build CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12/11653.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/BaaarkingDog/math_0x12/11653.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12/11653.cpp.o.d
+build CMakeFiles/algorithm.dir/bronze_3/2914.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_3/2914.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_3/2914.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/algorithm.dir
-  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_3
+
+build CMakeFiles/algorithm.dir/bronze_2/1297.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_2/1297.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_2/1297.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_2
+
+build CMakeFiles/algorithm.dir/bronze_2/1100.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_2/1100.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_2/1100.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_2
 
 
 # =============================================================================
@@ -63,7 +75,7 @@ build CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12/11653.cpp.o: CXX_COMPILER_
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/BaaarkingDog/math_0x12/11653.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_3/2914.cpp.o CMakeFiles/algorithm.dir/bronze_2/1297.cpp.o CMakeFiles/algorithm.dir/bronze_2/1100.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :

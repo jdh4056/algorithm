@@ -5,7 +5,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(algorithm
 
-        BaaarkingDog/math_0x12/11653.cpp
+        bronze_3/2914.cpp
+        bronze_2/1297.cpp
+        bronze_2/1100.cpp
 
 
 )
