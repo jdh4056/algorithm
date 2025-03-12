@@ -67,6 +67,18 @@ build CMakeFiles/algorithm.dir/bronze_2/1100.cpp.o: CXX_COMPILER__algorithm_unsc
   OBJECT_DIR = CMakeFiles/algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_2
 
+build CMakeFiles/algorithm.dir/silver_5/1094.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/silver_5/1094.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/silver_5/1094.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/silver_5
+
+build CMakeFiles/algorithm.dir/bronze_2/2908.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_2/2908.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_2/2908.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algorithm
@@ -75,7 +87,7 @@ build CMakeFiles/algorithm.dir/bronze_2/1100.cpp.o: CXX_COMPILER__algorithm_unsc
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_3/2914.cpp.o CMakeFiles/algorithm.dir/bronze_2/1297.cpp.o CMakeFiles/algorithm.dir/bronze_2/1100.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_3/2914.cpp.o CMakeFiles/algorithm.dir/bronze_2/1297.cpp.o CMakeFiles/algorithm.dir/bronze_2/1100.cpp.o CMakeFiles/algorithm.dir/silver_5/1094.cpp.o CMakeFiles/algorithm.dir/bronze_2/2908.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :
