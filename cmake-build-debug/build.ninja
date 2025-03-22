@@ -97,6 +97,54 @@ build CMakeFiles/algorithm.dir/stack/10773_2.cpp.o: CXX_COMPILER__algorithm_unsc
   OBJECT_DIR = CMakeFiles/algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/stack
 
+build CMakeFiles/algorithm.dir/stack/9012_2.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/stack/9012_2.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/stack/9012_2.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/stack
+
+build CMakeFiles/algorithm.dir/bronze_3/2921.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_3/2921.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_3/2921.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_3
+
+build CMakeFiles/algorithm.dir/stack/10799_2.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/stack/10799_2.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/stack/10799_2.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/stack
+
+build CMakeFiles/algorithm.dir/bronze_3/2959.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_3/2959.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_3/2959.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_3
+
+build CMakeFiles/algorithm.dir/queue/18258_2.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/queue/18258_2.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/queue/18258_2.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/queue
+
+build CMakeFiles/algorithm.dir/stack/3986.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/stack/3986.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/stack/3986.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/stack
+
+build CMakeFiles/algorithm.dir/33178.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/33178.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/33178.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir
+
+build CMakeFiles/algorithm.dir/bronze_3/3034.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_3/3034.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_3/3034.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_3
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algorithm
@@ -105,7 +153,7 @@ build CMakeFiles/algorithm.dir/stack/10773_2.cpp.o: CXX_COMPILER__algorithm_unsc
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_1/1526.cpp.o CMakeFiles/algorithm.dir/bronze_4/9699.cpp.o CMakeFiles/algorithm.dir/bronze_3/2783.cpp.o CMakeFiles/algorithm.dir/stack/10828_stl.cpp.o CMakeFiles/algorithm.dir/queue/10845_stl.cpp.o CMakeFiles/algorithm.dir/bronze_3/2965.cpp.o CMakeFiles/algorithm.dir/bronze_3/2953.cpp.o CMakeFiles/algorithm.dir/stack/10773_2.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_1/1526.cpp.o CMakeFiles/algorithm.dir/bronze_4/9699.cpp.o CMakeFiles/algorithm.dir/bronze_3/2783.cpp.o CMakeFiles/algorithm.dir/stack/10828_stl.cpp.o CMakeFiles/algorithm.dir/queue/10845_stl.cpp.o CMakeFiles/algorithm.dir/bronze_3/2965.cpp.o CMakeFiles/algorithm.dir/bronze_3/2953.cpp.o CMakeFiles/algorithm.dir/stack/10773_2.cpp.o CMakeFiles/algorithm.dir/stack/9012_2.cpp.o CMakeFiles/algorithm.dir/bronze_3/2921.cpp.o CMakeFiles/algorithm.dir/stack/10799_2.cpp.o CMakeFiles/algorithm.dir/bronze_3/2959.cpp.o CMakeFiles/algorithm.dir/queue/18258_2.cpp.o CMakeFiles/algorithm.dir/stack/3986.cpp.o CMakeFiles/algorithm.dir/33178.cpp.o CMakeFiles/algorithm.dir/bronze_3/3034.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :

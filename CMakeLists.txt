@@ -13,6 +13,14 @@ add_executable(algorithm
         bronze_3/2965.cpp
         bronze_3/2953.cpp
         stack/10773_2.cpp
+        stack/9012_2.cpp
+        bronze_3/2921.cpp
+        stack/10799_2.cpp
+        bronze_3/2959.cpp
+        queue/18258_2.cpp
+        stack/3986.cpp
+        33178.cpp
+        bronze_3/3034.cpp
 
 
 )
