@@ -21,6 +21,14 @@ add_executable(algorithm
         stack/3986.cpp
         33178.cpp
         bronze_3/3034.cpp
+        stack/4949_2.cpp
+        queue/1158_2.cpp
+        bronze_3/3578.cpp
+        Array_LinkedList/2577_2.cpp
+        bronze_3/5063.cpp
+        bronze_3/3047.cpp
+        Array_LinkedList/11328_2.cpp
+        bronze_3/4493.cpp
 
 
 )
