@@ -33,6 +33,7 @@ add_executable(algorithm
         bronze_2/1568.cpp
         bronze_3/3058.cpp
         season_2/dataStructor/10828.cpp
+        season_2/dataStructor/2512.cpp
 
 
 )
