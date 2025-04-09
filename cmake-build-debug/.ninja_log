@@ -1,14 +1,13 @@
 # ninja log v6
-1	1257	1744081023610470401	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1012.cpp.o	14145cf0211b0381
 9	3408	1744020055483171654	CMakeFiles/algorithm.dir/season_1/queue/10845_stl.cpp.o	f7fa1d22a2323a27
 9	3334	1744020055483381031	CMakeFiles/algorithm.dir/bronze_3/2965.cpp.o	47a1a66462b3973
-1	71	1744082516683611783	build.ninja	404e28d84c3e7e74
-10	3318	1744020055484498039	CMakeFiles/algorithm.dir/bronze_3/2953.cpp.o	77b1c1bed6adada4
-3	1298	1744020903220279607	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1926.cpp.o	ed68a45505934489
 8	3311	1744020055482112980	CMakeFiles/algorithm.dir/bronze_3/2783.cpp.o	9498215a3939ab29
+11	1138	1744084721253242474	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1012.cpp.o	14145cf0211b0381
+1	71	1744202736218088647	build.ninja	404e28d84c3e7e74
+3	1298	1744020903220279607	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1926.cpp.o	ed68a45505934489
+11	1143	1744084721253731862	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1260.cpp.o	2258d6238a098d1c
+8	3460	1744020055482833444	CMakeFiles/algorithm.dir/season_1/stack/10828_stl.cpp.o	b81708c8a50e6861
+10	3318	1744020055484498039	CMakeFiles/algorithm.dir/bronze_3/2953.cpp.o	77b1c1bed6adada4
 1	2019	1744024187083711529	CMakeFiles/algorithm.dir/season_2/BFS&DFS/16173.cpp.o	b9e588d67bced428
 1258	1398	1744081024866770851	algorithm	ca665c4c7bdb53a
-8	3460	1744020055482833444	CMakeFiles/algorithm.dir/season_1/stack/10828_stl.cpp.o	b81708c8a50e6861
 5	1726	1742110517242850286	CMakeFiles/algorithm.dir/bronze_1/1526.cpp.o	a39862af9eb67b70
-11	1138	1744084721253242474	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1012.cpp.o	14145cf0211b0381
-11	1143	1744084721253731862	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1260.cpp.o	2258d6238a098d1c
