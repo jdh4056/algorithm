@@ -21,25 +21,25 @@ int main() {
 
     for (int i = 0; i < m; i++) {
         memset(vis,0,sizeof(vis));
-        int sum = 0;
-
+        //int sum = 0;
         int a,b;
         cin >> a >> b;
-        queue<int> q;
+        queue<pair <int, int> > q;
         vis[a] = 1;
-        q.push(a);
+        q.push({a,0});
 
         while (!q.empty()) {
-            int cur = q.front(); q.pop();
-            for (auto p : adj[cur]) {
-                int next = p.first;     // 연결된 노드 번호
-                int dist = p.second;    // 거리
-
+            auto [cur, dist] = q.front(); q.pop();
+            if (cur == b) {
+                cout << dist << '\n';
+                break;
+            }
+            for (auto [next, weight] : adj[cur]) {
                 if (vis[next]) continue;
                 vis[next] = 1;
-                sum += dist;
+                q.push({next,dist + weight});
             }
         }
-        cout << sum << '\n';
+
     }
 }
