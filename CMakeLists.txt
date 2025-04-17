@@ -7,7 +7,9 @@ add_executable(algorithm
 
 
 
-        bronze_3/2476.cpp
+
+        season_2/sort/11650.cpp
+        season_2/sort/11651.cpp
 
 
 )
