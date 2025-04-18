@@ -6,10 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(algorithm
 
 
-
-
-        season_2/sort/11650.cpp
-        season_2/sort/11651.cpp
+        bronze_3/5292.cpp
 
 
 )
