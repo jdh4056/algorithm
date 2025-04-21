@@ -61,8 +61,14 @@ build CMakeFiles/algorithm.dir/bronze_3/2720.cpp.o: CXX_COMPILER__algorithm_unsc
   OBJECT_DIR = CMakeFiles/algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_3
 
-build CMakeFiles/algorithm.dir/bronze_3/361.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_3/361.cpp || cmake_object_order_depends_target_algorithm
-  DEP_FILE = CMakeFiles/algorithm.dir/bronze_3/361.cpp.o.d
+build CMakeFiles/algorithm.dir/bronze_3/5361.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_3/5361.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_3/5361.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_3
+
+build CMakeFiles/algorithm.dir/bronze_3/4740.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_3/4740.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_3/4740.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_3
@@ -75,7 +81,7 @@ build CMakeFiles/algorithm.dir/bronze_3/361.cpp.o: CXX_COMPILER__algorithm_unsca
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_3/5292.cpp.o CMakeFiles/algorithm.dir/bronze_3/2720.cpp.o CMakeFiles/algorithm.dir/bronze_3/361.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_3/5292.cpp.o CMakeFiles/algorithm.dir/bronze_3/2720.cpp.o CMakeFiles/algorithm.dir/bronze_3/5361.cpp.o CMakeFiles/algorithm.dir/bronze_3/4740.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :
