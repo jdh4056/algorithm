@@ -49,15 +49,7 @@
 			},
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8
+				0
 			]
 		}
 	],
@@ -90,15 +82,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8
+				0
 			]
 		}
 	],
@@ -107,55 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "bronze_3/5292.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "bronze_3/2720.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "bronze_3/5361.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "bronze_3/4740.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "bronze_3/5523.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "bronze_3/9085.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "bronze_2/1592.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "bronze_2/1550.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "bronze_2/1864.cpp",
+			"path" : "bronze_3/2460.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
