@@ -1,8 +1,8 @@
 # ninja log v6
-7	3438	1745732011681655095	CMakeFiles/algorithm.dir/bronze_3/5361.cpp.o	fb48fa468f54fc83
-8	3311	1744020055482112980	CMakeFiles/algorithm.dir/bronze_3/2783.cpp.o	9498215a3939ab29
-9	3471	1745732011683695203	CMakeFiles/algorithm.dir/bronze_3/9085.cpp.o	ec8bf5560a315dea
 3438	4684	1745732015112737222	CMakeFiles/algorithm.dir/bronze_2/1864.cpp.o	b072b90f1a613003
+9	3471	1745732011683695203	CMakeFiles/algorithm.dir/bronze_3/9085.cpp.o	ec8bf5560a315dea
+8	3311	1744020055482112980	CMakeFiles/algorithm.dir/bronze_3/2783.cpp.o	9498215a3939ab29
+7	3438	1745732011681655095	CMakeFiles/algorithm.dir/bronze_3/5361.cpp.o	fb48fa468f54fc83
 4	1165	1744939062505969558	CMakeFiles/algorithm.dir/season_2/sort/11651.cpp.o	6f14a60411a5cd27
 11	1138	1744084721253242474	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1012.cpp.o	14145cf0211b0381
 3329	4616	1745732015003132511	CMakeFiles/algorithm.dir/bronze_2/1592.cpp.o	97d64be81b30d5ba
@@ -29,5 +29,5 @@
 6	3421	1745732011680112034	CMakeFiles/algorithm.dir/bronze_3/5292.cpp.o	ba2ec363b73fde4d
 3	1298	1744020903220279607	CMakeFiles/algorithm.dir/season_2/BFS&DFS/1926.cpp.o	ed68a45505934489
 3	1457	1744771945111314433	CMakeFiles/algorithm.dir/bronze_3/2476.cpp.o	9aaa806362e9092b
-1	70	1745810273218160109	build.ninja	404e28d84c3e7e74
+1	70	1745895988546555472	build.ninja	404e28d84c3e7e74
 7	1574	1744939119138589607	CMakeFiles/algorithm.dir/bronze_3/4619.cpp.o	ea4410b105eef023
