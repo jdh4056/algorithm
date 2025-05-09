@@ -17,7 +17,8 @@ add_executable(algorithm
         bronze_3/4562.cpp
         bronze_3/5691.cpp
         bronze_2/2774.cpp
-        silver_5/1436.cpp
+        bruteforce/1436.cpp
+        bruteforce/2231.cpp
 
 
 )
