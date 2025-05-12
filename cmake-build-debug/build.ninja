@@ -127,6 +127,12 @@ build CMakeFiles/algorithm.dir/bruteforce/6131.cpp.o: CXX_COMPILER__algorithm_un
   OBJECT_DIR = CMakeFiles/algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bruteforce
 
+build CMakeFiles/algorithm.dir/bruteforce/1075.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bruteforce/1075.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bruteforce/1075.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bruteforce
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algorithm
@@ -135,7 +141,7 @@ build CMakeFiles/algorithm.dir/bruteforce/6131.cpp.o: CXX_COMPILER__algorithm_un
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_3/2460.cpp.o CMakeFiles/algorithm.dir/bronze_3/9325.cpp.o CMakeFiles/algorithm.dir/bronze_2/1871.cpp.o CMakeFiles/algorithm.dir/bronze_2/1233.cpp.o CMakeFiles/algorithm.dir/bronze_2/2605.cpp.o CMakeFiles/algorithm.dir/bronze_3/3449.cpp.o CMakeFiles/algorithm.dir/bronze_3/4880.cpp.o CMakeFiles/algorithm.dir/bronze_3/4562.cpp.o CMakeFiles/algorithm.dir/bronze_3/5691.cpp.o CMakeFiles/algorithm.dir/bronze_2/2774.cpp.o CMakeFiles/algorithm.dir/bruteforce/1436.cpp.o CMakeFiles/algorithm.dir/bruteforce/2231.cpp.o CMakeFiles/algorithm.dir/bruteforce/6131.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_3/2460.cpp.o CMakeFiles/algorithm.dir/bronze_3/9325.cpp.o CMakeFiles/algorithm.dir/bronze_2/1871.cpp.o CMakeFiles/algorithm.dir/bronze_2/1233.cpp.o CMakeFiles/algorithm.dir/bronze_2/2605.cpp.o CMakeFiles/algorithm.dir/bronze_3/3449.cpp.o CMakeFiles/algorithm.dir/bronze_3/4880.cpp.o CMakeFiles/algorithm.dir/bronze_3/4562.cpp.o CMakeFiles/algorithm.dir/bronze_3/5691.cpp.o CMakeFiles/algorithm.dir/bronze_2/2774.cpp.o CMakeFiles/algorithm.dir/bruteforce/1436.cpp.o CMakeFiles/algorithm.dir/bruteforce/2231.cpp.o CMakeFiles/algorithm.dir/bruteforce/6131.cpp.o CMakeFiles/algorithm.dir/bruteforce/1075.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :
