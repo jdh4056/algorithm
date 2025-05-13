@@ -62,7 +62,9 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14,
+				15
 			]
 		}
 	],
@@ -108,7 +110,9 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14,
+				15
 			]
 		}
 	],
@@ -196,6 +200,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "bruteforce/1075.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bruteforce/1057.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bruteforce/3040.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
