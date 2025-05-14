@@ -23,6 +23,7 @@ add_executable(algorithm
         bruteforce/1075.cpp
         bruteforce/1057.cpp
         bruteforce/3040.cpp
+        greedy/5585.cpp
 
 
 )
