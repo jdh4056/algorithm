@@ -26,6 +26,7 @@ add_executable(algorithm
         greedy/5585.cpp
         bronze_3/8714.cpp
         bronze_3/11006.cpp
+        bronze_3/21146.cpp
 
 
 )
