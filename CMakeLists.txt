@@ -29,6 +29,8 @@ add_executable(algorithm
         bronze_3/21146.cpp
         bronze_4/5565.cpp
         bronze_4/5532.cpp
+        season_2/greedy/1541.cpp
+        bronze_4/4589.cpp
 
 
 )
