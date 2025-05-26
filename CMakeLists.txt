@@ -34,6 +34,7 @@ add_executable(algorithm
         season_2/math/6064.cpp
         season_2/math/1193.cpp
         bronze_4/6778.cpp
+        season_2/math/4948.cpp
 
 
 )
