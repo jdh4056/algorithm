@@ -76,7 +76,9 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28,
+				29
 			]
 		}
 	],
@@ -136,7 +138,9 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28,
+				29
 			]
 		}
 	],
@@ -289,7 +293,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "season_2/math/6064.cpp",
+			"path" : "season_2/math/2089.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -308,6 +312,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "season_2/math/4948.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "season_2/math/6064.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bronze_3/3507.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

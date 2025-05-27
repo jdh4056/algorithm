@@ -1,24 +1,23 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
+
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    int t; cin >> t;
+    while (t--) {
+        int n,m,x,y;
+        cin >> m >> n >> x >> y;
 
-    int n; cin >> n;
+        int cntx = 0;
+        int cnty = 0;
+        for (int i = 0; i < m; i++) {
 
-    if (n == 0) cout << 0;
-    string res;
-    while (n != 0) {
-        int r = n % -2;
-        n /= -2;
-
-        if (r < 0) {
-            n += 1;
-            r += 2;
+            for (int j = 0; j < n; j++) {
+                if (y < n) cnty++;
+                if (cnty == y) break;
+            }
+            if (x < m) cntx++;
+            if (cntx == x) cout << cntx + cnty << '\n';
         }
-        res = to_string(r) + res;
     }
-
-    cout << res;
 }
