@@ -45,6 +45,8 @@ add_executable(algorithm
         bronze_3/4619.cpp
         bronze_3/4758.cpp
         bronze_3/5343.cpp
+        season_2/문자열/1213.cpp
+        season_2/문자열/2941.cpp
 
 
 )

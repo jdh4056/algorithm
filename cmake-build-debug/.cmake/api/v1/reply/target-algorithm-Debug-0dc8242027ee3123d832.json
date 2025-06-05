@@ -86,7 +86,9 @@
 				34,
 				35,
 				36,
-				37
+				37,
+				38,
+				39
 			]
 		}
 	],
@@ -156,7 +158,9 @@
 				34,
 				35,
 				36,
-				37
+				37,
+				38,
+				39
 			]
 		}
 	],
@@ -388,6 +392,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "bronze_3/5343.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "season_2/\ubb38\uc790\uc5f4/1213.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "season_2/\ubb38\uc790\uc5f4/2941.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
