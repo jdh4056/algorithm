@@ -48,6 +48,7 @@ add_executable(algorithm
         season_2/문자열/1213.cpp
         season_2/문자열/2941.cpp
         sorting/2693.cpp
+        bronze_3/11023.cpp
 
 
 )
