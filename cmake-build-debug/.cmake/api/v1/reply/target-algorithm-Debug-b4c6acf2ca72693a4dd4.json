@@ -90,7 +90,8 @@
 				38,
 				39,
 				40,
-				41
+				41,
+				42
 			]
 		}
 	],
@@ -164,7 +165,8 @@
 				38,
 				39,
 				40,
-				41
+				41,
+				42
 			]
 		}
 	],
@@ -420,6 +422,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "bronze_3/11023.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "bronze_3/11024.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
