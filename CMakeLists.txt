@@ -54,6 +54,8 @@ add_executable(algorithm
         bronze_4/11948.cpp
         bronze_4/8558.cpp
         bronze_4/13985.cpp
+        season_2/dp/15486.cpp
+        bronze_4/13580.cpp
 
 
 )
