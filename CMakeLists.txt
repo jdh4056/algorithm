@@ -57,6 +57,9 @@ add_executable(algorithm
         season_2/dp/15486.cpp
         bronze_4/13580.cpp
         bronze_4/11943.cpp
+        season_2/dp/14002.cpp
+        season_2/dp/9465.cpp
+        season_2/dp/11057.cpp
 
 
 )
