@@ -61,6 +61,12 @@ build CMakeFiles/algorithm.dir/bronze_4/15439.cpp.o: CXX_COMPILER__algorithm_uns
   OBJECT_DIR = CMakeFiles/algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_4
 
+build CMakeFiles/algorithm.dir/bronze_4/15474.cpp.o: CXX_COMPILER__algorithm_unscanned_Debug /Users/jangdonghyeon/CLionProjects/algorithm/bronze_4/15474.cpp || cmake_object_order_depends_target_algorithm
+  DEP_FILE = CMakeFiles/algorithm.dir/bronze_4/15474.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles/algorithm.dir/bronze_4
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target algorithm
@@ -69,7 +75,7 @@ build CMakeFiles/algorithm.dir/bronze_4/15439.cpp.o: CXX_COMPILER__algorithm_uns
 #############################################
 # Link the executable algorithm
 
-build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_4/14652.cpp.o CMakeFiles/algorithm.dir/bronze_4/15439.cpp.o
+build algorithm: CXX_EXECUTABLE_LINKER__algorithm_Debug CMakeFiles/algorithm.dir/bronze_4/14652.cpp.o CMakeFiles/algorithm.dir/bronze_4/15439.cpp.o CMakeFiles/algorithm.dir/bronze_4/15474.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk
   OBJECT_DIR = CMakeFiles/algorithm.dir
   POST_BUILD = :
