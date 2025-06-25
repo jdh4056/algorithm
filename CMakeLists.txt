@@ -9,6 +9,9 @@ add_executable(algorithm
         bronze_4/15439.cpp
         bronze_4/15474.cpp
         bronze_4/15051.cpp
+        season_2/binsearch/1654.cpp
+        season_2/binsearch/14921.cpp
+        season_2/binsearch/1253.cpp
 
 
 )
