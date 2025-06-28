@@ -13,6 +13,9 @@ add_executable(algorithm
         season_2/binsearch/14921.cpp
         season_2/binsearch/1253.cpp
         bronze_4/14470.cpp
+        bronze_4/20215.cpp
+        bronze_3/8721.cpp
+        bronze_4/15025.cpp
 
 
 )
