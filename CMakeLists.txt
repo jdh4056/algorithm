@@ -23,6 +23,7 @@ add_executable(algorithm
         math/1159.cpp
         bronze_3/18005.cpp
         bronze_2/2592.cpp
+        bronze_3/11586.cpp
 
 
 )
